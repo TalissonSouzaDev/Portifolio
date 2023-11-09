@@ -1,0 +1,47 @@
+.Template {
+    background-color: black;
+    max-width: 100%;
+    min-height: 931px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 5%;
+}
+
+.title {
+    font-size: 55px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.icon > a {
+    padding: 5%;
+    margin-top: 2%;
+    margin-bottom: 10%;
+}
+
+.icon > a:hover {
+
+    background-color: rgb(208, 216, 216);
+    border-radius: 25px;
+
+}
+
+.animate__animated.animate__bounce {
+    animation-duration: 2s;
+  }
+  .btn {
+
+    width: 20%;
+    background-color: rgb(208, 216, 216);
+    margin-top: 10em;
+  }
+
+  .btn:hover {
+    background-color: rgb(182, 187, 187);
+  }
