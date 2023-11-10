@@ -1,1 +1,24 @@
 
+.home {
+
+    background-color: black;
+    max-width: 100%;
+    min-height: 919px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 2%;
+}
+
+
+.sobre-me{
+    background-color: rgb(221, 216, 216);
+    max-width: 100%;
+    min-height: 919px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 2%;
+}
