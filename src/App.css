@@ -13,12 +13,13 @@
 
 
 .sobre-me{
-    background-color: rgb(221, 216, 216);
+    background-color: rgb(245, 241, 241);
     max-width: 100%;
-    min-height: 919px;
+    min-height: 1280px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start;
     padding-left: 2%;
+    border-top: 25px solid rgb(45, 45, 48);
+    
 }
