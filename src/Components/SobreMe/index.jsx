@@ -30,7 +30,7 @@ export default function SobreMe() {
   return (
     <>
       <div className="me">
-        <h1 className=" animate__animated animate__flipInX">Quem é Talisson Souza</h1>
+        <h1 className=" animate__animated animate__flipInX h1-sobre"><strong>Quem é Talisson Souza ?</strong></h1>
 
         <h4 className="animate__animated animate__flipInX">
           Sou um desenvolvedor web qualificado, dedicado e produtivo, boa
@@ -39,7 +39,7 @@ export default function SobreMe() {
           trabalho de equipe, comunicativo e pró-ativo.
         </h4>
 
-        <h1 className="animate__animated animate__flipInX">FORMAÇÃO</h1>
+        <h1 className="animate__animated animate__flipInX h1-sobre">FORMAÇÃO</h1>
         <div className="formacao">
           {formacao.map((x) => {
             return (
@@ -54,7 +54,7 @@ export default function SobreMe() {
         <br /><br />
 
 
-        <h1>CURSO COMPLEMENTARES</h1>
+        <h1 className="h1-sobre">CURSOS COMPLEMENTARES</h1>
         <div className="formacao">
           {curso.map((x) => {
             return (

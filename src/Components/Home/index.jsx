@@ -5,8 +5,8 @@ import "animate.css";
 import avatar from "../../assets/avatar.png";
 export default function Home() {
   return (
-    <div className="home">
-      <div className="home-elements">
+    <>
+    <div className="home-elements">
         <div className="text-white title animate__animated animate__bounceInLeft">
           Olá!,{" "}
           <strong>
@@ -15,19 +15,19 @@ export default function Home() {
           <br />
           <h3>Programador FullStack | Analista de Dados</h3>
           <div className="icon animate__animated animate__bounceInLeft">
-            <a href="">
+            <a href="https://www.linkedin.com/in/talisson-souza-81a069215/" target="_blank">
               <FaLinkedin color="white" size={40} />
             </a>
-            <a href="">
+            <a href="https://github.com/TalissonSouzaDev" target="_blank">
               <FaGithub color="white" size={40} />
             </a>
-            <a href="">
+            <a href="https://wa.me/5571987337969?text=Talisso+Souza" target="_blank">
               <FaWhatsapp color="white" size={40} />
             </a>
           </div>
-          <button className="btn btn-lg animate__animated animate__bounceInUp">
+          <a href="/projetos" className="btn btn-lg text-dark animate__animated animate__bounceInUp">
             Meus Projetos <FaArrowRight />
-          </button>
+          </a>
         </div>
 
         <img
@@ -35,7 +35,10 @@ export default function Home() {
           alt="avatar"
           className="animate__animated animate__zoomInRight"
         />
+
+
+        
       </div>
-    </div>
+    </>
   );
 }

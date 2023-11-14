@@ -40,6 +40,7 @@
 
 .formacao-quadrado:hover{
     background-color: rgba(240, 248, 255, 0.781);
+    cursor: pointer;
     
 }
 
@@ -70,4 +71,11 @@
 h1 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width:720px) {
+    .h1-sobre{
+        font-size: 25px;
+    }
+    
 }
