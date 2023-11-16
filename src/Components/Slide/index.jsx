@@ -67,7 +67,7 @@ export default function Slide() {
 
   </div>
 
-  <a href="/Portifolio/projetos"  className="btn btn-black "><span className='text-muted'>Ver Mais</span></a>
+  <a href="/projetos"  className="btn btn-black "><span className='text-muted'>Ver Mais</span></a>
     </>
   )
 }

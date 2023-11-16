@@ -11,7 +11,7 @@ const Rotas = createBrowserRouter([
     },
 
     {
-        path:'/Portifolio/projetos',
+        path:'/projetos',
         element:<PageProjeto/>
     },
 
