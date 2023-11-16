@@ -1,6 +1,6 @@
 import { useState } from "react";
 import React from "react";
-import "./sobreme.css";
+import '../../assets/css/style.css'
 import {FaReact,FaHtml5,FaCss3Alt,FaPhp,FaJs,FaBootstrap,FaLaravel,FaDocker } from "react-icons/fa";
 import csharp from "../../assets/Csharp.svg";
 import mysql from "../../assets/mysql.svg";

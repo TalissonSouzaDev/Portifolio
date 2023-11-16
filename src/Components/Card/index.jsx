@@ -1,13 +1,12 @@
 import React from "react";
-import foto1  from '../../assets/Slide/foto01.jpg'
-import './card.css'
+import '../../assets/css/style.css'
 import { FaGithub } from "react-icons/fa";
 
-export default function Card() {
+export default function Card({foto,link}) {
   return (
     <>
       <div class="card" style={{width: '25rem'}}>
-        <img class="card-img-top" src={foto1} alt="Card image cap" />
+        <img class="card-img-top" src={foto} alt="Card image cap" />
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">
@@ -17,12 +16,10 @@ export default function Card() {
 
 
         <div className="btn-card">
-        <a href="#" class="btn btn-dark">
+        <a href={link} class="btn btn-dark">
         <FaGithub /> Github
           </a>
-          <a href="#" class="btn btn-info">
-            Projeto
-          </a>
+         
         </div>
         </div>
       </div>

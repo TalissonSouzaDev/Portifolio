@@ -1,5 +1,5 @@
 import React from "react";
-import "./Home.css";
+import '../../assets/css/style.css'
 import { FaLinkedin, FaGithub, FaWhatsapp, FaArrowRight } from "react-icons/fa";
 import "animate.css";
 import avatar from "../../assets/avatar.png";

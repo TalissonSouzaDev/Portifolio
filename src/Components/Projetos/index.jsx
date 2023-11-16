@@ -1,6 +1,7 @@
 import React from 'react'
 import Slide from '../Slide'
-import './projeto.css'
+import '../../assets/css/style.css'
+import Footer from '../Footer'
 
 
 export default function Projetos() {
@@ -9,7 +10,7 @@ export default function Projetos() {
 
     <Slide/>
 
-    <footer className='footer'>Footer</footer>
+    <Footer/>
    </>
   )
 }

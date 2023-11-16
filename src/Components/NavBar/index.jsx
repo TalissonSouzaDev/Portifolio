@@ -1,6 +1,6 @@
 import React from "react";
 import {FaFortAwesomeAlt} from 'react-icons/fa'
-import { FaLinkedin, FaGithub, FaWhatsapp, FaArrowRight } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaWhatsapp, } from "react-icons/fa";
 
 export default function NavBar() {
   return (

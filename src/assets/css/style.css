@@ -1,0 +1,229 @@
+/*-------------------------- HOME -----------------------*/
+.home-elements {
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.home-elements>img {
+    width: 820px;
+}
+
+.title {
+    font-size: 55px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.icon>a {
+    padding: 15px;
+}
+
+.icon>a:hover {
+
+    background-color: rgb(208, 216, 216);
+    border-radius: 25px;
+
+}
+
+.btn {
+
+    width: 300px;
+    background-color: rgb(208, 216, 216);
+    margin-top: 2em;
+}
+
+.btn:hover {
+    background-color: rgb(182, 187, 187);
+}
+
+@media screen and (max-width:1169px) {
+    .home-elements>img {
+        width: 580px;
+    }
+
+    .home-elements {
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25%;
+
+    }
+
+    .title {
+        font-size: 45px;
+        margin: 25px;
+    }
+}
+
+
+@media screen and (max-width:821px) {
+    .home-elements {
+        margin: 0;
+        padding-top: 15%;
+    }
+
+    .home-elements>img {
+        width: 380px;
+    }
+}
+
+/*-------------------------- SOBRE ME -----------------------*/
+.me{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+.me h4{
+    margin-bottom: 40px;
+
+}
+
+.formacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.formacao-quadrado{
+    border: 2px solid black;
+    width: 400px;
+    height: 150px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 25px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 1%;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: rgba(11, 17, 17, 0.541);
+    padding-left: 5px;
+    padding-right: 10px;
+    cursor: pointer;
+
+}
+
+.formacao-quadrado:hover{
+    background-color: rgba(240, 248, 255, 0.781);
+    cursor: pointer;
+    
+}
+
+
+.conhecimento{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.conhecimento-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.conhecimento-icon > span{
+    margin:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conhecimento-icon > span > strong{
+    margin-left: 5px;
+}
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width:720px) {
+    .h1-sobre{
+        font-size: 25px;
+    }
+    
+}
+
+
+
+/*-------------------------- CARD -----------------------*/
+.card {
+    margin-bottom: 15px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.btn-card {
+    display: flex;
+    justify-content: center;
+}
+
+
+/*-------------------------- PAGEPROJETO -----------------------*/
+.card-elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.title-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*-------------------------- PROJETOS -----------------------*/
+
+.title {
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+.imgslide {
+    width: 700px;
+    height: 500px;
+}
+
+@media screen and (max-width:720px) {
+    .imgslide {
+        width: 400px;
+        height: 500px;
+    }
+
+}
+
+/*-------------------------- FOOTER -----------------------*/
+.footer {
+    background-color: black;
+    min-width: 100%;
+    margin-top: 200px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer ul {
+    list-style: none;
+}

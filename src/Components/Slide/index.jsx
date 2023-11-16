@@ -2,7 +2,7 @@ import React from 'react'
 import foto1 from '../../assets/Slide/foto01.jpg'
 import foto2 from '../../assets/Slide/foto02.jpg'
 import foto3 from '../../assets/Slide/foto03.jpg'
-import foto4 from '../../assets/Slide/foto04.jpg'
+import foto4 from '../../assets/Slide/foto04.png'
 export default function Slide() {
   return (
     <>
