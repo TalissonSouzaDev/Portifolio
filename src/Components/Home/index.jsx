@@ -25,7 +25,7 @@ export default function Home() {
               <FaWhatsapp color="white" size={40} />
             </a>
           </div>
-          <a href="/projetos" className="btn btn-lg text-dark animate__animated animate__bounceInUp">
+          <a href="/Portifolio/projetos" className="btn btn-lg text-dark animate__animated animate__bounceInUp">
             Meus Projetos <FaArrowRight />
           </a>
         </div>
