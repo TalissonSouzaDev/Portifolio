@@ -20,17 +20,17 @@ export default function NavBar() {
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="/">
+              <a class="nav-link" href="/Portifolio">
                 Home
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/#sobre-me">
+              <a class="nav-link" href="#sobre-me">
                 Sobre Me
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/#projeto">
+              <a class="nav-link" href="#projeto">
                 Projetos
               </a>
             </li>
