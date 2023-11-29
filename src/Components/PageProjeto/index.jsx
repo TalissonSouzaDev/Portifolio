@@ -7,6 +7,7 @@ import foto1  from '../../assets/Slide/foto01.jpg'
 import foto2  from '../../assets/Slide/foto02.jpg'
 import foto3  from '../../assets/Slide/foto03.jpg'
 import foto4  from '../../assets/Slide/foto04.png'
+import { Link } from 'react-router-dom';
 export default function PageProjeto() {
 
   const [foto,setfotos] = useState([
@@ -20,7 +21,7 @@ export default function PageProjeto() {
 
    <div className='title-card'>
    <h1 className='title'>Projetos</h1>
-    <a href="/" className="btn btn-dark btn-lg"><FaAngleDoubleLeft /> Volta Para Home</a>
+    <Link to="/Portifolio" className="btn btn-dark btn-lg"><FaAngleDoubleLeft /> Volta Para Home</Link>
    </div>
     
     <div className='card-elements'>

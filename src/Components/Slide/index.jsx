@@ -3,6 +3,7 @@ import foto1 from '../../assets/Slide/foto01.jpg'
 import foto2 from '../../assets/Slide/foto02.jpg'
 import foto3 from '../../assets/Slide/foto03.jpg'
 import foto4 from '../../assets/Slide/foto04.png'
+import { Link } from 'react-router-dom'
 export default function Slide() {
   return (
     <>
@@ -67,7 +68,7 @@ export default function Slide() {
 
   </div>
 
-  <a href="Portifolio/projetos"  className="btn btn-black "><span className='text-muted'>Ver Mais</span></a>
+  <Link to="/Portifolio/projetos"  className="btn btn-black "><span className='text-muted'>Ver Mais</span></Link>
     </>
   )
 }

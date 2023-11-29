@@ -6,12 +6,12 @@ import App from './App';
 const Rotas = createBrowserRouter([
  
     {
-        path:'/Portifolio',
+        path:'Portifolio',
         element:<App/>
     },
 
     {
-        path:'/Portifolio/projetos',
+        path:'Portifolio/projetos',
         element:<PageProjeto/>
     },
 
