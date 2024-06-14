@@ -2,12 +2,13 @@ import {createBrowserRouter} from 'react-router-dom';
 import NotFound from './Components/NotFound';
 import PageProjeto from './Components/PageProjeto';
 import App from './App';
+import Manuntencao from './Components/Home/Manuntencao';
 
 const Rotas = createBrowserRouter([
  
     {
         path:'Portifolio',
-        element:<App/>
+        element:<Manuntencao/>
     },
 
     {
